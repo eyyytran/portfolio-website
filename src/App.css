@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+/* logo font */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap');
+/* font-family: 'Arima', cursive; */
+
+/* text font */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --white: #f8f7ff;
+    --lavendar: #b8b8ff;
+    --violet: #9381ff;
+    --yellow: #ffeedd;
+    --orange: #ffd8be;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
 }
