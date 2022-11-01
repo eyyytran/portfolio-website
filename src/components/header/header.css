@@ -1,0 +1,11 @@
+/* logo font */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap');
+/* font-family: 'Arima', cursive; */
+
+h1 {
+    font-family: 'Arima', cursive;
+}
+
+.header-container {
+    padding-left: 1rem;
+}

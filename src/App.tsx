@@ -1,11 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
 import Main from './pages/Main'
 import './App.css'
+import Header from './components/header/Header'
 
 function App() {
     return (
         <div className='App'>
-            <h1>Hi My name is Andrea</h1>
+            <Header />
             <Routes>
                 <Route path='/' element={<Main />} />
             </Routes>

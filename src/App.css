@@ -1,7 +1,3 @@
-/* logo font */
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap');
-/* font-family: 'Arima', cursive; */
-
 /* text font */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Open+Sans&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
@@ -10,6 +6,7 @@
     --white: #f8f7ff;
     --lavendar: #b8b8ff;
     --violet: #9381ff;
+    --dark-violet: #4d2eff;
     --yellow: #ffeedd;
     --orange: #ffd8be;
 }
@@ -22,5 +19,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--white);
+    background-color: var(--yellow);
+    color: var(--dark-violet);
 }
